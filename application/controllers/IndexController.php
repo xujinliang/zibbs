@@ -9,7 +9,7 @@ class IndexController extends Controller
         $this->assign("settingarr", $settingarr);
         require('static/Fenye.class.php');
         $count = $this->db->query("select count(*) from zibbs_posts p left join zibbs_user u on p.userid=u.id order by p.newtime desc")->fetchColumn();
-        $fenye = new Fenye($count, 15);
+        $fenye = new Fenye($count, 10);
         $show  = $fenye->show();
         $sql   = $fenye->listcon("select p.*,u.username from zibbs_posts p left join zibbs_user u on p.userid=u.id order by p.newtime desc");
         $query = $this->db->query($sql);
@@ -30,7 +30,7 @@ class IndexController extends Controller
         $this->showtags();
         require('static/Fenye.class.php');
         $count = $this->db->query("select count(*) from zibbs_posts p left join zibbs_user u on p.userid=u.id where p.tagid='" . $t . "' order by p.newtime desc")->fetchColumn();
-        $fenye = new Fenye($count, 15);
+        $fenye = new Fenye($count, 10);
         $show  = $fenye->show();
         $sql   = $fenye->listcon("select p.*,u.username from zibbs_posts p left join zibbs_user u on p.userid=u.id where p.tagid='" . $t . "' order by p.newtime desc");
         $query = $this->db->query($sql);

@@ -25,9 +25,9 @@
             <h2 class="title"><a href="./index.php?route=index/viewpost&pid=<?php echo $p['id'];?>"><?php echo $p['title'];?></a></h2>
             <ul class="author list-inline">
                                                 <li>
-                                            <a href="javascript:;" onclick="showwho(this,<?php echo $p['userid'];?>)"><?php echo $p['username'];?></a>
+                                            <?php echo $p['username'];?>
                         <span class="split"></span>
-                        <small><?php echo $p['time'];?></small>
+                        <small><em><?php echo date("Y-m-d H:i",strtotime($p['time']));?></em></small>
                                     </li>
             </ul>
         </div>
