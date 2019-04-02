@@ -100,5 +100,5 @@ a.dropdown-toggle{text-decoration:none;}
 .badge-info{background:red;color:#fff;padding:5px;}
 .list-group-item{border:none;border-bottom:1px solid #ddd;margin-bottom:0;}
 .msgli{border-bottom:1px solid #ddd;padding:10px 0;margin:10px 0;}
-#replypost #content{width:100%}
+#newpost #content,#replypost #content{width:100%}
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{background:#b8af9e}

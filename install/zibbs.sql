@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `zibbs_setting` (
 --
 
 INSERT INTO `zibbs_setting` (`id`, `siteurl`, `sitetitle`, `sitekeywords`, `sitedescription`, `smtphost`, `smtpuser`, `smtppsw`, `smtpemail`, `smtpsubject`, `smtpcontent`, `bbsmeta`, `bbslink`) VALUES
-(1, '', 'zibbs官方网站,php开源社区论坛', '梓论坛，原创PHP论坛，轻论坛', 'zibbs官方网站,PHP开源社区论坛,PHP论坛源码,PHP轻论坛,全新的社区系统', '', '', '', '', '梓论坛用户激活邮件', '欢迎您的注册，请体验此社区的魅力', '&lt;p style=&quot;text-align:center&quot;&gt;梓论坛 ( zibbs )&lt;/p&gt;\n&lt;p style=&quot;text-indent:2em;font-size:14px;color:#666;line-height:2;&quot;&gt;梓论坛是由原“了了社区”升级而来，正式启用新名称“梓论坛”，是一款基于Bootstrap的轻论坛系统，自适应于PC、平板以及手机设备，同时也是开发者对于轻论坛系统的二次理解，随着技术的不断积累，一些更优秀的插件也需要被引入，服务于广大的用户。&lt;/p&gt;&lt;p&gt;下载地址：&lt;br&gt;&lt;a href=&quot;http://zibbs.youyax.com/download/zibbs.zip&quot;&gt;http://zibbs.youyax.com/download/zibbs.zip&lt;/a&gt;&lt;/p&gt;', 'php混淆加密|http://www.youyax.com/phpjmx\nxlert弹出层|http://www.youyax.com/xlert') ;##
+(1, '', 'zibbs官方网站,php开源社区论坛', '梓论坛，原创PHP论坛，轻论坛', 'zibbs官方网站,PHP开源社区论坛,PHP论坛源码,PHP轻论坛,全新的社区系统', '', '', '', '', '梓论坛用户激活邮件', '欢迎您的注册，请体验此社区的魅力', '&lt;p style=&quot;text-align:center&quot;&gt;梓论坛 ( zibbs )&lt;/p&gt;\n&lt;p style=&quot;text-indent:2em;font-size:14px;color:#666;line-height:2;&quot;&gt;梓论坛是由原“了了社区”升级而来，正式启用新名称“梓论坛”，是一款基于Bootstrap的轻论坛系统，自适应于PC、平板以及手机设备，同时也是开发者对于轻论坛系统的二次理解，随着技术的不断积累，一些更优秀的插件也需要被引入，服务于广大的用户。&lt;/p&gt;&lt;p&gt;下载地址：&lt;br&gt;&lt;a href=&quot;https://github.com/xujinliang/zibbs&quot;&gt;https://github.com/xujinliang/zibbs&lt;/a&gt;&lt;/p&gt;', 'php混淆加密|http://www.youyax.com/phpjmx\nxlert弹出层|http://www.youyax.com/xlert') ;##
 
 -- --------------------------------------------------------
 
