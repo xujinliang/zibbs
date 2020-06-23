@@ -25,7 +25,7 @@ class Framework
         $controllerName = $this->_config['defaultController'];
         $actionName = $this->_config['defaultAction'];
         
-        $route = !empty($_GET['route']) ? addslashes($_GET['route']) : '';
+        $route = !empty($_GET['route']) ? addslashes(htmlspecialchars($_GET['route'])) : '';
         if ($route) {
             // 使用“/”分割字符串，并保存在数组中
             $urlArray = explode('/', $route);
